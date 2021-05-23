@@ -18,5 +18,11 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)sliderChanged:(UISlider *)sender {
+    NSLog(@"slider value changed %d", sender.value);
+    [_paintCodeView setAngle:sender.value];
+    
+
+}
 
 @end

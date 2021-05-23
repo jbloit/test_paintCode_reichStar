@@ -6,9 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PCView.h"
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet PCView *paintCodeView;
 
 @end
 

@@ -15,7 +15,13 @@
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
     // Drawing code
-    [ReichStarStyleKit drawReichStarWithFrame:rect resizing:ReichStarStyleKitResizingBehaviorAspectFill angle:20];
+    [ReichStarStyleKit drawReichStarWithFrame:rect resizing:ReichStarStyleKitResizingBehaviorAspectFill angle:_newAngle];
+}
+
+- (void)setAngle: (CGFloat)angle
+{
+    _newAngle = angle;
+   [self setNeedsDisplay];
 }
 
 

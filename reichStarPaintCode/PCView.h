@@ -11,6 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PCView : UIView
 
+@property  CGFloat newAngle;
+
+- (void)setAngle: (CGFloat)angle;
+
 @end
 
 NS_ASSUME_NONNULL_END
