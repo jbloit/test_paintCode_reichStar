@@ -14,6 +14,8 @@
 		A4C3EB7F2658538F000DC1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C3EB7E2658538F000DC1B1 /* Assets.xcassets */; };
 		A4C3EB822658538F000DC1B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C3EB802658538F000DC1B1 /* LaunchScreen.storyboard */; };
 		A4C3EB852658538F000DC1B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C3EB842658538F000DC1B1 /* main.m */; };
+		A4C3EB8D265853EA000DC1B1 /* ReichStarStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C3EB8C265853EA000DC1B1 /* ReichStarStyleKit.m */; };
+		A4C3EB96265854FC000DC1B1 /* PCView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C3EB95265854FC000DC1B1 /* PCView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		A4C3EB812658538F000DC1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4C3EB832658538F000DC1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4C3EB842658538F000DC1B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4C3EB8B265853EA000DC1B1 /* ReichStarStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReichStarStyleKit.h; sourceTree = "<group>"; };
+		A4C3EB8C265853EA000DC1B1 /* ReichStarStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReichStarStyleKit.m; sourceTree = "<group>"; };
+		A4C3EB94265854FC000DC1B1 /* PCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCView.h; sourceTree = "<group>"; };
+		A4C3EB95265854FC000DC1B1 /* PCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,8 @@
 		A4C3EB712658538C000DC1B1 /* reichStarPaintCode */ = {
 			isa = PBXGroup;
 			children = (
+				A4C3EB8B265853EA000DC1B1 /* ReichStarStyleKit.h */,
+				A4C3EB8C265853EA000DC1B1 /* ReichStarStyleKit.m */,
 				A4C3EB722658538C000DC1B1 /* AppDelegate.h */,
 				A4C3EB732658538C000DC1B1 /* AppDelegate.m */,
 				A4C3EB752658538C000DC1B1 /* SceneDelegate.h */,
@@ -72,6 +80,8 @@
 				A4C3EB802658538F000DC1B1 /* LaunchScreen.storyboard */,
 				A4C3EB832658538F000DC1B1 /* Info.plist */,
 				A4C3EB842658538F000DC1B1 /* main.m */,
+				A4C3EB94265854FC000DC1B1 /* PCView.h */,
+				A4C3EB95265854FC000DC1B1 /* PCView.m */,
 			);
 			path = reichStarPaintCode;
 			sourceTree = "<group>";
@@ -149,6 +159,8 @@
 				A4C3EB742658538C000DC1B1 /* AppDelegate.m in Sources */,
 				A4C3EB852658538F000DC1B1 /* main.m in Sources */,
 				A4C3EB772658538C000DC1B1 /* SceneDelegate.m in Sources */,
+				A4C3EB8D265853EA000DC1B1 /* ReichStarStyleKit.m in Sources */,
+				A4C3EB96265854FC000DC1B1 /* PCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
