@@ -16,6 +16,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _paintCodeView.backgroundColor = [UIColor clearColor];
 }
 
 - (IBAction)sliderChanged:(UISlider *)sender {
