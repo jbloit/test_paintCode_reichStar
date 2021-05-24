@@ -15,6 +15,16 @@
 
 PaintCodeView::PaintCodeView(){};
 
+
+void PaintCodeView::setAngle(float newAngle)
+{
+    if (m_view != nullptr)
+    {
+    
+        [(PCView*)m_view setAngle:newAngle];
+    }
+}
+
 void PaintCodeView::resized ()
 {
     if (!m_view)
@@ -33,7 +43,7 @@ void PaintCodeView::resized ()
             
             m_view = view;
             
-            setView (view);
+            setView (m_view);
         }
     }
 }

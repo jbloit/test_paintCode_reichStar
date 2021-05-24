@@ -10,18 +10,17 @@
 #define PaintCodeViewBase juce::NSViewComponent
 #endif
 
-
 class PaintCodeView : public PaintCodeViewBase
 {
 public:
     
     PaintCodeView ();
     
-    void
-    resized () override;
+    void resized () override;
+    
+    void setAngle(float newAngle);
     
 private:
     
-    void*
-    m_view = nullptr;
+    void* m_view = nullptr;
 };
