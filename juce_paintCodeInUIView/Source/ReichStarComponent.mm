@@ -32,6 +32,23 @@ void ReichStarComponent::setAngle(float newAngle)
     }
 }
 
+void ReichStarComponent::setFixedHilitedBranch(int newIndex)
+{
+    if (m_view != nullptr)
+    {
+        [(ReichStarView*)m_view setHilitedFixedBranch:newIndex];
+    }
+}
+
+void ReichStarComponent::setPhasingHilitedBranch(int newIndex)
+{
+    if (m_view != nullptr)
+    {
+        [(ReichStarView*)m_view setHilitedPhasingBranch:newIndex];
+    }
+}
+
+
 void ReichStarComponent::resized ()
 {
     if (!m_view)

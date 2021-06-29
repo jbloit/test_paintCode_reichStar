@@ -15,7 +15,7 @@
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
     // Drawing code
-    [ReichStarStyleKit drawReichStarWithFrame:rect resizing:ReichStarStyleKitResizingBehaviorAspectFill angle:_newAngle hiliteFixedBranch:_newHilitedFixedBranch hilitePhasingBranch:_newHilitedPhasingBranch baseAlpha:0.8];
+    [ReichStarStyleKit drawReichStarWithFrame:rect resizing:ReichStarStyleKitResizingBehaviorAspectFill angle:_newAngle hiliteFixedBranch:_newHilitedFixedBranch hilitePhasingBranch:_newHilitedPhasingBranch baseAlpha:0.6];
 }
 
 - (void)setAngle: (CGFloat)angle
