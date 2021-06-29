@@ -5,15 +5,18 @@
               headerPath="../reichStarPaintCode">
   <MAINGROUP id="Usss3m" name="juce_paintCodeInUIView">
     <GROUP id="{1B9878B0-8AA0-A4E6-7DDD-278D77CE8A35}" name="Source">
-      <FILE id="HSY4Md" name="PCView.h" compile="0" resource="0" file="../reichStarPaintCode/PCView.h"/>
-      <FILE id="BXIre1" name="PCView.m" compile="1" resource="0" file="../reichStarPaintCode/PCView.m"/>
-      <FILE id="gNtZBd" name="ReichStarStyleKit.h" compile="0" resource="0"
-            file="../reichStarPaintCode/ReichStarStyleKit.h"/>
-      <FILE id="oNFGwn" name="ReichStarStyleKit.m" compile="1" resource="0"
-            file="../reichStarPaintCode/ReichStarStyleKit.m"/>
-      <FILE id="bHmV55" name="PaintCodeView.mm" compile="1" resource="0"
-            file="Source/PaintCodeView.mm"/>
-      <FILE id="S5OAxm" name="PaintCodeView.h" compile="0" resource="0" file="Source/PaintCodeView.h"/>
+      <GROUP id="{796FC3DF-2270-230C-6B0D-1063EF6AD338}" name="stylekit_ios">
+        <FILE id="rKJPA8" name="ReichStarView.h" compile="0" resource="0" file="Source/stylekit_ios/ReichStarView.h"/>
+        <FILE id="wibt62" name="ReichStarView.m" compile="1" resource="0" file="Source/stylekit_ios/ReichStarView.m"/>
+        <FILE id="mOXfrX" name="ReichStarStyleKit.m" compile="1" resource="0"
+              file="Source/stylekit_ios/ReichStarStyleKit.m"/>
+        <FILE id="iekTFw" name="ReichStarStyleKit.h" compile="0" resource="0"
+              file="Source/stylekit_ios/ReichStarStyleKit.h"/>
+      </GROUP>
+      <FILE id="jmYAzl" name="ReichStarComponent.h" compile="0" resource="0"
+            file="Source/ReichStarComponent.h"/>
+      <FILE id="AuYyvu" name="ReichStarComponent.mm" compile="1" resource="0"
+            file="Source/ReichStarComponent.mm"/>
       <FILE id="oOARtk" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
       <FILE id="cJIw5a" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="uZXKX2" name="MainComponent.cpp" compile="1" resource="0"
@@ -22,20 +25,6 @@
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
   <EXPORTFORMATS>
-    <XCODE_MAC targetFolder="Builds/MacOSX">
-      <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="juce_paintCodeInUIView"/>
-        <CONFIGURATION isDebug="0" name="Release" targetName="juce_paintCodeInUIView"/>
-      </CONFIGURATIONS>
-      <MODULEPATHS>
-        <MODULEPATH id="juce_core" path="../../../libs/tracktion_engine/modules/juce/modules"/>
-        <MODULEPATH id="juce_data_structures" path="../../../libs/tracktion_engine/modules/juce/modules"/>
-        <MODULEPATH id="juce_events" path="../../../libs/tracktion_engine/modules/juce/modules"/>
-        <MODULEPATH id="juce_graphics" path="../../../libs/tracktion_engine/modules/juce/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="../../../libs/tracktion_engine/modules/juce/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="../../../libs/tracktion_engine/modules/juce/modules"/>
-      </MODULEPATHS>
-    </XCODE_MAC>
     <XCODE_IPHONE targetFolder="Builds/iOS">
       <CONFIGURATIONS>
         <CONFIGURATION isDebug="1" name="Debug"/>

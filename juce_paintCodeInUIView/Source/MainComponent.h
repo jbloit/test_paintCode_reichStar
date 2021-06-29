@@ -1,7 +1,7 @@
 #pragma once
 
 #include <JuceHeader.h>
-#include "PaintCodeView.h"
+#include "ReichStarComponent.h"
 
 //==============================================================================
 /*
@@ -21,7 +21,7 @@ public:
 
 private:
 
-    PaintCodeView paintCodeView;
+    ReichStarComponent paintCodeView;
     
     juce::Slider slider;
     

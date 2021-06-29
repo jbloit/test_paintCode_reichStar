@@ -10,11 +10,11 @@
 #define PaintCodeViewBase juce::NSViewComponent
 #endif
 
-class PaintCodeView : public PaintCodeViewBase
+class ReichStarComponent : public PaintCodeViewBase
 {
 public:
     
-    PaintCodeView ();
+    ReichStarComponent ();
     
     void resized () override;
     
